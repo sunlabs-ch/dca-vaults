@@ -245,8 +245,8 @@ const MultipleTabs = () => {
                 </div>
                 <br />
                 <div>
-                  <span>Last distribution:</span>
-                  <p>{ lastDistribution }</p>
+                  <p>Last distribution:</p>
+                  <span>{ lastDistribution }</span>
                 </div>
                 <div className="buttons">
                   <S.Button onClick={() => claim(VAULTS.ETH)} disabled={!walletAddress}>Claim { VAULTS.ETH }</S.Button>
@@ -304,8 +304,8 @@ const MultipleTabs = () => {
                 </div>
                 <br />
                 <div>
-                  <span>Last distribution:</span>
-                  <p>{ lastDistribution }</p>
+                  <p>Last distribution:</p>
+                  <span>{ lastDistribution }</span>
                 </div>
                 <div className="buttons">
                   <S.Button onClick={() => claim(VAULTS.WBTC)} disabled={!walletAddress}>Claim { VAULTS.WBTC }</S.Button>
@@ -363,8 +363,8 @@ const MultipleTabs = () => {
                 </div>
                 <br />
                 <div>
-                  <span>Last distribution:</span>
-                  <p>{ lastDistribution }</p>
+                  <p>Last distribution:</p>
+                  <span>{ lastDistribution }</span>
                 </div>
                 <div className="buttons">
                   <S.Button onClick={() => claim(VAULTS.DPI)} disabled={!walletAddress}>Claim { VAULTS.DPI }</S.Button>
