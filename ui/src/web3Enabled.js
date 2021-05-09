@@ -65,9 +65,8 @@ export class Web3Enabled {
           wallet: wallet => {
             if (wallet.provider) {
               this.web3 = new Web3(wallet.provider);
+              window.web3 = this.web3;
             }
-            // store the selected wallet name to be retrieved next time the app loads
-            window.localStorage.setItem('selectedWallet', wallet.name);
           },
           address: this.doNothing,
           network: this.doNothing,

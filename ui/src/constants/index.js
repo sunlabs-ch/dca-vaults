@@ -1,3 +1,17 @@
+export const VAULT_ABI = require("./abi/vault.json")
+
+export const ETH_VAULT_ABI = require("./abi/ethVault.json")
+
+export const DIVIDEND_TOKEN = require("./abi/dividendToken.json")
+
+export const MAX_UINT = "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+
+export const VAULTS = Object.freeze({
+  'ETH': 'WETH',
+  'WBTC': 'WBTC',
+  'DPI': 'DPI'
+})
+
 export const NETWORKS = Object.freeze({
   'MAINNET': 'mainnet',
   'ROPSTEN': 'ropsten',

@@ -9,9 +9,9 @@ export const Container = styled.div`
 export const Input = styled.input`
   width: 100%;
   outline: none;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   border: 1px solid #e1e1ef;
-  padding: 1rem 1.25rem;
+  padding: 0.5em 1rem;
   transition: border-color 0.3s ease-in;
   border-radius: 8px;
   color: #000;

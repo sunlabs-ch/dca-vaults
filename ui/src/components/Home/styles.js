@@ -143,6 +143,14 @@ export const Deposit = styled.div`
     font-weight: 600;
     margin-bottom: 1em;
   }
+
+  .buttons {
+    display: flex;
+
+    button {
+      margin: 30px;
+    }
+  }
 `;
 
 export const Claim = styled.div`
@@ -167,7 +175,15 @@ export const Claim = styled.div`
   }
 `;
 
-export const Withdraw = styled.div``;
+export const Withdraw = styled.div`
+  .buttons {
+    display: flex;
+
+    button {
+      margin: 30px;
+    }
+  }
+`;
 
 export const Button = styled.button`
   cursor: pointer;
@@ -188,5 +204,9 @@ export const Button = styled.button`
     background: #fff;
     color: #4a4a4a;
     border: 1px solid #4a4a4a;
+  }
+  &:disabled {
+    background-color: #bbbaba;
+    cursor: not-allowed;
   }
 `;
